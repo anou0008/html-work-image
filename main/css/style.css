@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+header, 
+footer{
+    background-color: lightgray;}
+
+    .site-title{
+        color: blue;
+    }
+
+    #profile-photo{
+        box-shadow: 0 0 2px 1px black;
+        
+    }
+
+    #hobbies-list{
+        list-style-type: square;
+    }
+    
+    nav ul{
+        list-style-type: none;
+        
+    }
+
+    nav a{
+        text-decoration: none;
+        border: 1px solid black;
+        color: black;
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    nav a:hover,
+    nav a:focus{
+        background-color: gray;
+       
+    }
